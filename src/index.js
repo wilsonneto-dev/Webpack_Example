@@ -1,5 +1,7 @@
 import $ from 'jquery';
 
+import './style.scss';
+
 var app = {
     init(){
       $("button").on(
@@ -7,7 +9,8 @@ var app = {
           () => {
         
             console.log("button clicked.")
-        
+            window.alert("here");
+
         })  
     }
 }

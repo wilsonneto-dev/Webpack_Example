@@ -6,8 +6,10 @@ var app = {
           "click", 
           () => {
         
-            alert("button clicked.")
+            console.log("button clicked.")
         
         })  
     }
 }
+
+app.init();
